@@ -21,8 +21,8 @@ datadir = '/x/jhoffman'
 os.environ['CUDA_VISIBLE_DEVICES'] = '1' 
 
 # Problem Params
-src = 'mnist'
-tgt = 'usps'
+src='svhn2mnist'
+tgt = 'mnist'
 iteration = 1 #'no_cycle' 
 
 base_src = src.split('2')[0]
